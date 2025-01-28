@@ -1,0 +1,8 @@
+CREATE TABLE employees (
+	id bigint NOT NULL AUTO_INCREMENT,
+	email varchar(225) NOT NULL,
+	first_name varchar(225) NOT NULL,
+	last_name varchar(225) NOT NULL,
+	PRIMARY KEY (`id`),
+	UNIQUE KEY 'UK_j9xgmd0ya5jmus09o0b8pqrpb' ( `email` )
+	) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
